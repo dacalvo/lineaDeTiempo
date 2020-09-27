@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body,
+html {
+    background-image: url('../imagenes/paisaje.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+
+header {
+    width: 100;
+    height: auto;
+    background-color: rgba(33, 150, 243, 0.69);
+}
+
+#section {
+    width: 100%;
+    height: auto;
+}
+
+#section .linea-vertical {
+    width: 0.65%;
+    height: 80px;
+    border: 2px solid #FF9800;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #FF9800;
+}
+
+#section .linea-horizontal {
+    width: 20%;
+    height: 6px;
+    top: -5px;
+    border: 2px solid #FF9800;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #FF9800;
+}
+
+#section .linea-vertical-1 {
+    width: 0.65%;
+    height: 80px;
+    border: 2px solid #009688;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #009688;
+}
+
+#section .linea-horizontal-1 {
+    width: 20%;
+    height: 6px;
+    top: -5px;
+    border: 2px solid #009688;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #009688;
+}
+
+#section .linea-vertical-2 {
+    width: 0.65%;
+    height: 80px;
+    border: 2px solid #c14f2d;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #c14f2d;
+}
+
+#section .linea-horizontal-2 {
+    width: 20%;
+    height: 6px;
+    top: -5px;
+    border: 2px solid #c14f2d;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #c14f2d;
+}
+
+#section p {
+    font-size: 1.1em;
+}
